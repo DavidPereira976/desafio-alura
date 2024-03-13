@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador AluraOne</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <img class="logo-img" src="./img/logo.jpeg" alt="" />
+        <h1>Decodificador de Mensagens</h1>
+        <img class="logo-img" src="./img/logo.jpeg" alt="" />
+      </section>
+    </header>
+    <main>
+      <section class="primeira-section">
+        <textarea
+          class="input"
+          name=""
+          id=""
+          cols="20"
+          rows="10"
+          placeholder="Digite o texto que deseja criptografar !"
+        ></textarea>
+        <div>
+          <button onclick="criptografar()">Criptografar</button>
+          <button onclick="descriptografar()">Descriptografar</button>
+        </div>
+      </section>
+
+      <section class="segunda-section">
+        <h2>Mensagem</h2>
+        <div>
+          <h2></h2>
+          <p></p>
+        </div>
+        <button id="botao-Copiar" style="display: none" onclick="copiartxt()">
+          Copiar
+        </button>
+      </section>
+    </main>
+    <footer><p>Desenvolvido por David Pereira</p></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
